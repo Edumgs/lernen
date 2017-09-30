@@ -20,6 +20,9 @@
       "prefix": "app",
       "styles": [
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "./assets/css/carousel.css",
+        "./assets/css/estilo.css",
+        "./assets/css/signin.css",
         "styles.css"
       ],
       "scripts": [

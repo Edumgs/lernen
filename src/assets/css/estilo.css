@@ -1,0 +1,41 @@
+.price-header {
+	background:#5a5a5a;
+	padding-top:20px;
+	border-radius:10px 10px 0 0;
+}
+.price-header h3 {
+	margin: 0 auto;
+	padding-bottom:10px;
+	width:80%;
+	border-bottom:1px solid #f2f2f2;
+  color: #000;
+}
+.price-header span {
+	display:block;
+	margin-top:10px;
+}
+.price-header span, .price-header .price {
+	color:#fff;
+}
+.price-header .price {
+	font-size: 40px;
+}
+
+.price-column {
+ background:#F2F2F2;
+ margin:0 auto;
+ padding-bottom:20px;
+ text-align:center;
+ margin-bottom:20px;
+ border-radius:10px;
+}
+
+.price-column ul {
+	padding:0;
+	margin:20px 0;
+	list-style:none;
+}
+.price-column ul > li {
+	font-size:20px;
+	padding:10px 0;
+}

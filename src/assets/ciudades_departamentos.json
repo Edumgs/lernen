@@ -1,0 +1,1285 @@
+{
+  "rows": [
+    {
+      "id": 1,
+      "ciudades": "Asunción",
+      "departamento": "Distrito Capital"
+    },
+    {
+      "id": 2,
+      "ciudades": "Luque",
+      "departamento": "Central"
+    },
+    {
+      "id": 3,
+      "ciudades": "San Lorenzo",
+      "departamento": "Central"
+    },
+    {
+      "id": 4,
+      "ciudades": "Capiatá",
+      "departamento": "Central"
+    },
+    {
+      "id": 5,
+      "ciudades": "Lambaré",
+      "departamento": "Central"
+    },
+    {
+      "id": 6,
+      "ciudades": "Fernando de la Mora",
+      "departamento": "Central"
+    },
+    {
+      "id": 7,
+      "ciudades": "Limpio",
+      "departamento": "Central"
+    },
+    {
+      "id": 8,
+      "ciudades": "Ñemby",
+      "departamento": "Central"
+    },
+    {
+      "id": 9,
+      "ciudades": "Itauguá",
+      "departamento": "Central"
+    },
+    {
+      "id": 10,
+      "ciudades": "Mariano Roque Alonso",
+      "departamento": "Central"
+    },
+    {
+      "id": 11,
+      "ciudades": "Villa Elisa",
+      "departamento": "Central"
+    },
+    {
+      "id": 12,
+      "ciudades": "Itá",
+      "departamento": "Central"
+    },
+    {
+      "id": 13,
+      "ciudades": "Areguá",
+      "departamento": "Central"
+    },
+    {
+      "id": 14,
+      "ciudades": "San Antonio",
+      "departamento": "Central"
+    },
+    {
+      "id": 15,
+      "ciudades": "Julián Augusto Saldívar",
+      "departamento": "Central"
+    },
+    {
+      "id": 16,
+      "ciudades": "Ypané",
+      "departamento": "Central"
+    },
+    {
+      "id": 17,
+      "ciudades": "Villeta",
+      "departamento": "Central"
+    },
+    {
+      "id": 18,
+      "ciudades": "Guarambaré",
+      "departamento": "Central"
+    },
+    {
+      "id": 19,
+      "ciudades": "Ypacaraí",
+      "departamento": "Central"
+    },
+    {
+      "id": 20,
+      "ciudades": "Nueva Italia",
+      "departamento": "Central"
+    },
+    {
+      "id": 21,
+      "ciudades": "Mariscal José Félix Estigarribia",
+      "departamento": "Boquerón"
+    },
+    {
+      "id": 22,
+      "ciudades": "Filadelfia",
+      "departamento": "Boquerón"
+    },
+    {
+      "id": 23,
+      "ciudades": "Loma Plata",
+      "departamento": "Boquerón"
+    },
+    {
+      "id": 24,
+      "ciudades": "Ciudad del Este",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 25,
+      "ciudades": "Presidente Franco",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 26,
+      "ciudades": "Minga Guazú",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 27,
+      "ciudades": "Hernandarias",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 28,
+      "ciudades": "Itakyry",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 29,
+      "ciudades": "Santa Rita",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 30,
+      "ciudades": "Juan Emilio O'Leary",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 31,
+      "ciudades": "Doctor Juan León Mallorquín",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 32,
+      "ciudades": "Minga Porá",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 33,
+      "ciudades": "San Alberto",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 34,
+      "ciudades": "Yguazú",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 35,
+      "ciudades": "San Cristóbal",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 36,
+      "ciudades": "Los Cedrales",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 37,
+      "ciudades": "Ñacunday",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 38,
+      "ciudades": "Doctor Raúl Peña",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 39,
+      "ciudades": "Mbaracayú",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 40,
+      "ciudades": "Tavapy",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 41,
+      "ciudades": "Santa Rosa del Monday",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 42,
+      "ciudades": "Naranjal",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 43,
+      "ciudades": "Iruña",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 44,
+      "ciudades": "Domingo Martínez de Irala",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 45,
+      "ciudades": "Santa Fe del Paraná",
+      "departamento": "Alto Paraná"
+    },
+    {
+      "id": 46,
+      "ciudades": "Pedro Juan Caballero",
+      "departamento": "Amambay"
+    },
+    {
+      "id": 47,
+      "ciudades": "Capitán Bado",
+      "departamento": "Amambay"
+    },
+    {
+      "id": 48,
+      "ciudades": "Bella Vista Norte",
+      "departamento": "Amambay"
+    },
+    {
+      "id": 49,
+      "ciudades": "Zanja Pytá",
+      "departamento": "Amambay"
+    },
+    {
+      "id": 50,
+      "ciudades": "Karapaí",
+      "departamento": "Amambay"
+    },
+    {
+      "id": 51,
+      "ciudades": "Puerto Casado",
+      "departamento": "Alto Paraguay"
+    },
+    {
+      "id": 52,
+      "ciudades": "Capitán Carmelo Peralta",
+      "departamento": "Alto Paraguay"
+    },
+    {
+      "id": 53,
+      "ciudades": "Fuerte Olimpo",
+      "departamento": "Alto Paraguay"
+    },
+    {
+      "id": 54,
+      "ciudades": "Bahía Negra",
+      "departamento": "Alto Paraguay"
+    },
+    {
+      "id": 55,
+      "ciudades": "Caaguazú",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 56,
+      "ciudades": "Coronel Oviedo",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 57,
+      "ciudades": "Doctor Juan Eulogio Estigarribia",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 58,
+      "ciudades": "Yhú",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 59,
+      "ciudades": "Repatriación",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 60,
+      "ciudades": "Doctor Juan Manuel Frutos",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 61,
+      "ciudades": "San José de los Arroyos",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 62,
+      "ciudades": "San Joaquín",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 63,
+      "ciudades": "Raúl Arsenio Oviedo",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 64,
+      "ciudades": "Carayaó",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 65,
+      "ciudades": "Tembiaporá",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 66,
+      "ciudades": "Santa Rosa del Mbutuy",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 67,
+      "ciudades": "Vaquería",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 68,
+      "ciudades": "José Domingo Ocampos",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 69,
+      "ciudades": "Tres de Febrero",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 70,
+      "ciudades": "R. I. Tres Corrales",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 71,
+      "ciudades": "Doctor Cecilio Báez",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 72,
+      "ciudades": "Mariscal Francisco Solano López",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 73,
+      "ciudades": "Simón Bolívar",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 74,
+      "ciudades": "La Pastora",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 75,
+      "ciudades": "Nueva Toledo",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 76,
+      "ciudades": "Nueva Londres",
+      "departamento": "Caaguazú"
+    },
+    {
+      "id": 77,
+      "ciudades": "San Juan Nepomuceno",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 78,
+      "ciudades": "Abaí",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 79,
+      "ciudades": "Caazapá",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 80,
+      "ciudades": "Yuty",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 81,
+      "ciudades": "Tres de Mayo",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 82,
+      "ciudades": "Tavaí",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 83,
+      "ciudades": "Fulgencio Yegros",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 84,
+      "ciudades": "General Higinio Morínigo",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 85,
+      "ciudades": "Buena Vista",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 86,
+      "ciudades": "Doctor Moisés Santiago Bertoni",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 87,
+      "ciudades": "Maciel",
+      "departamento": "Caazapá"
+    },
+    {
+      "id": 88,
+      "ciudades": "Curuguaty",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 89,
+      "ciudades": "Salto del Guairá",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 90,
+      "ciudades": "Yasy Cañy",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 91,
+      "ciudades": "Villa Ygatimí",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 92,
+      "ciudades": "Ybyrarobaná",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 93,
+      "ciudades": "Nueva Esperanza",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 94,
+      "ciudades": "General Francisco Caballero Álvarez",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 95,
+      "ciudades": "Yby Pytá",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 96,
+      "ciudades": "Corpus Christi",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 97,
+      "ciudades": "La Paloma del Espíritu Santo",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 98,
+      "ciudades": "Katueté",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 99,
+      "ciudades": "Ypejhú",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 100,
+      "ciudades": "Itanará",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 101,
+      "ciudades": "Maracaná",
+      "departamento": "Canindeyú"
+    },
+    {
+      "id": 102,
+      "ciudades": "Concepción",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 103,
+      "ciudades": "Horqueta",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 104,
+      "ciudades": "Yby Yaú",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 105,
+      "ciudades": "Loreto",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 106,
+      "ciudades": "Belén",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 107,
+      "ciudades": "San Lázaro",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 108,
+      "ciudades": "Azotey",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 109,
+      "ciudades": "Sargento José Félix López",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 110,
+      "ciudades": "San Alfredo",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 111,
+      "ciudades": "Paso Barreto",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 112,
+      "ciudades": "San Carlos del Apa",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 113,
+      "ciudades": "Arroyito",
+      "departamento": "Concepción"
+    },
+    {
+      "id": 114,
+      "ciudades": "Caacupé",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 115,
+      "ciudades": "Tobatí",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 116,
+      "ciudades": "Piribebuy",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 117,
+      "ciudades": "Arroyos y Esteros",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 118,
+      "ciudades": "Eusebio Ayala",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 119,
+      "ciudades": "Emboscada",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 120,
+      "ciudades": "Atyrá",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 121,
+      "ciudades": "Altos",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 122,
+      "ciudades": "Caraguatay",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 123,
+      "ciudades": "San Bernardino",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 124,
+      "ciudades": "Itacurubí de la Cordillera",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 125,
+      "ciudades": "Isla Pucú",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 126,
+      "ciudades": "Valenzuela",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 127,
+      "ciudades": "Juan de Mena",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 128,
+      "ciudades": "Primero de Marzo",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 129,
+      "ciudades": "Santa Elena",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 130,
+      "ciudades": "San José Obrero",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 131,
+      "ciudades": "Mbocayaty del Yhaguy",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 132,
+      "ciudades": "Nueva Colombia",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 133,
+      "ciudades": "Loma Grande",
+      "departamento": "Cordillera"
+    },
+    {
+      "id": 134,
+      "ciudades": "Villarrica",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 135,
+      "ciudades": "Independencia",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 136,
+      "ciudades": "Paso Yobái",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 137,
+      "ciudades": "Capitán Mauricio José Troche",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 138,
+      "ciudades": "Borja",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 139,
+      "ciudades": "Iturbe",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 140,
+      "ciudades": "Mbocayaty del Guairá",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 141,
+      "ciudades": "General Eugenio Alejandrino Garay",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 142,
+      "ciudades": "Itapé",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 143,
+      "ciudades": "José A. Fassardi",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 144,
+      "ciudades": "Coronel Martínez",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 145,
+      "ciudades": "Félix Pérez Cardozo",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 146,
+      "ciudades": "Natalicio Talavera",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 147,
+      "ciudades": "Yataity del Guairá",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 148,
+      "ciudades": "Ñumí",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 149,
+      "ciudades": "Tebicuary",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 150,
+      "ciudades": "San Salvador",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 151,
+      "ciudades": "Doctor Bottrell",
+      "departamento": "Guairá"
+    },
+    {
+      "id": 152,
+      "ciudades": "Encarnación",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 153,
+      "ciudades": "Cambyretá",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 154,
+      "ciudades": "San Pedro del Paraná",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 155,
+      "ciudades": "Tomás Romero Pereira",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 156,
+      "ciudades": "Edelira",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 157,
+      "ciudades": "San Rafael del Paraná",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 158,
+      "ciudades": "Natalio",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 159,
+      "ciudades": "Coronel José Félix Bogado",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 160,
+      "ciudades": "Carlos Antonio López",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 161,
+      "ciudades": "Alto Verá",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 162,
+      "ciudades": "Itapúa Poty",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 163,
+      "ciudades": "Obligado",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 164,
+      "ciudades": "Mayor Julio Dionisio Otaño",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 165,
+      "ciudades": "Hohenau",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 166,
+      "ciudades": "Capitán Meza",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 167,
+      "ciudades": "Bella Vista",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 168,
+      "ciudades": "Capitán Miranda",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 169,
+      "ciudades": "Yatytay",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 170,
+      "ciudades": "General Artigas",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 171,
+      "ciudades": "Fram",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 172,
+      "ciudades": "San Cosme y Damián",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 173,
+      "ciudades": "San Juan del Paraná",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 174,
+      "ciudades": "Trinidad",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 175,
+      "ciudades": "Pirapó",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 176,
+      "ciudades": "Carmen del Paraná",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 177,
+      "ciudades": "General Delgado",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 178,
+      "ciudades": "Nueva Alborada",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 179,
+      "ciudades": "Jesús",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 180,
+      "ciudades": "José Leandro Oviedo",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 181,
+      "ciudades": "La Paz",
+      "departamento": "Itapúa"
+    },
+    {
+      "id": 182,
+      "ciudades": "San Ignacio Guazú",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 183,
+      "ciudades": "San Juan Bautista",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 184,
+      "ciudades": "Santa Rosa de Lima",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 185,
+      "ciudades": "Ayolas",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 186,
+      "ciudades": "Santa María de Fe",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 187,
+      "ciudades": "Santiago",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 188,
+      "ciudades": "San Miguel",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 189,
+      "ciudades": "San Patricio",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 190,
+      "ciudades": "Villa Florida",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 191,
+      "ciudades": "Yabebyry",
+      "departamento": "Misiones"
+    },
+    {
+      "id": 192,
+      "ciudades": "Pilar",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 193,
+      "ciudades": "Alberdi",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 194,
+      "ciudades": "San Juan Bautista del Ñeembucú",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 195,
+      "ciudades": "Cerrito",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 196,
+      "ciudades": "Mayor José de Jesús Martínez",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 197,
+      "ciudades": "General José Eduvigis Díaz",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 198,
+      "ciudades": "Tacuaras",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 199,
+      "ciudades": "Villa Oliva",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 200,
+      "ciudades": "Laureles",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 201,
+      "ciudades": "Humaitá",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 202,
+      "ciudades": "Isla Umbú",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 203,
+      "ciudades": "Villalbín",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 204,
+      "ciudades": "Guazú Cuá",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 205,
+      "ciudades": "Paso de Patria",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 206,
+      "ciudades": "Desmochados",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 207,
+      "ciudades": "Villa Franca",
+      "departamento": "Ñeembucú"
+    },
+    {
+      "id": 208,
+      "ciudades": "Carapeguá",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 209,
+      "ciudades": "Yaguarón",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 210,
+      "ciudades": "Ybycuí",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 211,
+      "ciudades": "Paraguarí",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 212,
+      "ciudades": "Quiindy",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 213,
+      "ciudades": "Pirayú",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 214,
+      "ciudades": "Acahay",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 215,
+      "ciudades": "Mbuyapey",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 216,
+      "ciudades": "San Roque González de Santa Cruz",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 217,
+      "ciudades": "Escobar",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 218,
+      "ciudades": "Caapucú",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 219,
+      "ciudades": "Quyquyhó",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 220,
+      "ciudades": "Ybytymí",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 221,
+      "ciudades": "General Bernardino Caballero",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 222,
+      "ciudades": "Sapucai",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 223,
+      "ciudades": "La Colmena",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 224,
+      "ciudades": "Tebicuarymí",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 225,
+      "ciudades": "María Antonia",
+      "departamento": "Paraguarí"
+    },
+    {
+      "id": 226,
+      "ciudades": "Villa Hayes",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 227,
+      "ciudades": "Teniente Primero Manuel Irala Fernández",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 228,
+      "ciudades": "Benjamín Aceval",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 229,
+      "ciudades": "Puerto Pinasco",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 230,
+      "ciudades": "Nanawa",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 231,
+      "ciudades": "José Falcón",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 232,
+      "ciudades": "Teniente Esteban Martínez",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 233,
+      "ciudades": "General José María Bruguez",
+      "departamento": "Presidente Hayes"
+    },
+    {
+      "id": 234,
+      "ciudades": "San Estanislao",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 235,
+      "ciudades": "Capiibary",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 236,
+      "ciudades": "Santa Rosa del Aguaray",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 237,
+      "ciudades": "San Pedro de Ycuamandiyú",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 238,
+      "ciudades": "Guayaibí",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 239,
+      "ciudades": "Choré",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 240,
+      "ciudades": "General Isidoro Resquín",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 241,
+      "ciudades": "Liberación",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 242,
+      "ciudades": "General Elizardo Aquino",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 243,
+      "ciudades": "Tacuatí",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 244,
+      "ciudades": "Yrybucuá",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 245,
+      "ciudades": "Yataity del Norte",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 246,
+      "ciudades": "Lima",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 247,
+      "ciudades": "Itacurubí del Rosario",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 248,
+      "ciudades": "Villa del Rosario",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 249,
+      "ciudades": "25 de Diciembre",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 250,
+      "ciudades": "Unión",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 251,
+      "ciudades": "Nueva Germania",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 252,
+      "ciudades": "Antequera",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 253,
+      "ciudades": "San Pablo",
+      "departamento": "San Pedro"
+    },
+    {
+      "id": 254,
+      "ciudades": "San Vicente Pancholo",
+      "departamento": "San Pedro"
+    }
+  ],
+  "fields": {
+    "puesto": {
+      "type": "number"
+    },
+    "ciudades": {
+      "type": "string"
+    },
+    "departamentos": {
+      "type": "string"
+    }
+  }
+}

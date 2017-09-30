@@ -1,0 +1,157 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <p class="display-3 text-center">Bienvenido a Lernen</p>
+    <br><br>
+
+    <form class="form-horizontal" role="form" name="formulario" (submit)="enviarDatos()">
+      <div class="form-group row justify-content-md-center" [ngClass]="{'has-danger': !nombre.valid && (nombre.dirty || nombre.touched)}">
+        <label for="nombre" class="col-md-2 col-form-label">Nombre:</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control form-control-danger" [ngClass]="{'form-control-danger': nombre.errors && (nombre.dirty || nombre.touched)}" id="nombre" name="nombre" placeholder="Nombre" [(ngModel)]="alumno.firstname" #nombre="ngModel" required>
+          <div class="form-control-feedback" *ngIf="nombre.errors && (nombre.dirty || nombre.touched)">
+            Se requiere un nombre.
+          </div>
+          <div class="form-control-feedback" *ngIf="false">
+            Este campo acepta solo letras "a-zA-Z".
+          </div>
+        </div>
+      </div>
+      <div class="form-group row justify-content-md-center" [ngClass]="{'has-danger': !apellido.valid && (apellido.dirty || apellido.touched)}">
+        <label for="apellido" class="col-md-2 col-form-label">Apellido:</label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" [ngClass]="{'form-control-danger': nombre.errors && (nombre.dirty || nombre.touched)}" id="apellido" name="apellido" placeholder="Apellido" [(ngModel)]="alumno.lastname" #apellido="ngModel" required>
+          <div class="form-control-feedback" *ngIf="apellido.errors && (apellido.dirty || apellido.touched)">
+            Se requiere un apellido.
+          </div>
+          <div class="form-control-feedback" *ngIf="false">
+            Este campo acepta solo letras "a-zA-Z".
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row justify-content-md-center">
+        <label for="ciudad" class="col-md-2 col-form-label">Ciudad:</label>
+        <div class="col-md-6">
+          <select class="form-control" id="ciudad" name="ciudad" [(ngModel)]="alumno.city">
+            <option>Seleccione su ciudad</option>
+            <option *ngFor="let ciudad of ciudades">{{ciudad.ciudades}}</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group row justify-content-md-center" 
+      [ngClass]="{'has-danger': (!usuario.valid && (usuario.dirty || usuario.touched)) || (errorUser == mensajeError.debugInfo)}">
+        <label for="usuario" class="col-md-2 col-form-label">Nombre de Usuario:</label>
+        <div class="col-md-6">
+          <input type="text" class="form-control"  
+          name="username" id="usuario" placeholder="Nombre de Usuario" [(ngModel)]="alumno.username" #usuario="ngModel" required>
+          <p id="passwordHelpBlock" class="form-text text-muted">
+            El nombre de usuario solo puede contener caracteres alfanuméricos en minúscula (letras y números), guión bajo (_), guión (-), punto (.) o arroba (@).
+          </p>
+          <div class="form-control-feedback" *ngIf="usuario.errors && (usuario.dirty || usuario.touched)">
+            Se requiere un nombre de usuario.
+          </div>
+          <div class="form-control-feedback" *ngIf="errorUser == mensajeError.debugInfo">
+            Este nombre de usuario ya existe. Por favor, seleccione otro.
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-group row justify-content-md-center" 
+      [ngClass]="{'has-danger': (!email.valid && (email.dirty || email.touched)) || (errorEmail == mensajeError.debugInfo) || (errorEmailInvalid == mensajeError.debugInfo)}">
+        <label for="email" class="col-md-2 col-form-label">Email:</label>
+        <div class="col-md-6">
+          <input type="text" class="form-control"
+          name="email" id="email" placeholder="Email" [(ngModel)]="alumno.email" #email="ngModel" required>
+          <div class="form-control-feedback" *ngIf="email.errors && (email.dirty || email.touched)">
+            Se requiere un email.
+          </div>
+          <div class="form-control-feedback" *ngIf="errorEmailInvalid == mensajeError.debugInfo">
+            Dirección de correo no válida.
+          </div>
+          <div class="form-control-feedback" *ngIf="errorEmail == mensajeError.debugInfo">
+            Esta dirección de correo ya está registrada.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group row justify-content-md-center" [ngClass]="{'has-danger': !contrasenha.valid && (contrasenha.dirty || contrasenha.touched)}">
+        <label for="contrasenha" class="col-md-2 col-form-label">Contraseña:</label>
+        <div class="col-md-6">
+          <input type="password" class="form-control" [ngClass]="{'form-control-danger': contrasenha.errors && (contrasenha.dirty || contrasenha.touched)}" id="contrasenha" name="contrasenha" placeholder="Contraseña" [(ngModel)]="alumno.password" #contrasenha="ngModel" required>
+          <p id="passwordHelpBlock" class="form-text text-muted">
+            La contraseña debería tener al menos 8 caracter(es), al menos 1 dígito(s), al menos 1 minúscula(s), al menos 1 mayúscula(s), al menos 1 caracter(es) no alfanuméricos como *,-, o #
+          </p>
+        </div>
+      </div>
+
+      <div class="form-group row justify-content-md-center" [ngClass]="{'has-danger': !contrasenha2.valid && (contrasenha2.dirty || contrasenha2.touched)}">
+        <label for="repetirContrasenha" class="col-md-2 col-form-label">Repita la contraseña:</label>
+        <div class="col-md-6">
+          <input type="password" class="form-control" [ngClass]="{'form-control-danger': contrasenha2.errors && (contrasenha2.dirty || contrasenha2.touched)}" id="repetirContrasenha" name="contrasenha2" placeholder="Repita la contraseña" [(ngModel)]="segundaContrasenha" #contrasenha2="ngModel" required>
+          <div class="form-control-feedback" *ngIf="contrasenha2.errors && (contrasenha2.dirty || contrasenha2.touched)">
+              Se requiere la segunda contraseña.
+            </div>
+          <div class="invalid-feedback" *ngIf="contrasenha2.valid && (contrasenha2.value != contrasenha.value)">
+            Las contraseñas deben ser iguales.
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <div class="form-check" [ngClass]="{'has-danger': !condicion.valid && (condicion.dirty || condicion.touched)}">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" id="condiciones" name="condiciones" [(ngModel)]="checkbox" #condicion="ngModel" required>
+              Acepta los terminos de uso
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-8">
+          <a [routerLink]="['home']"><button type="button" class="btn btn-primary">Volver</button></a>
+          <input type="submit" class="btn btn-primary" value="Registrarse">
+        </div>
+      </div>
+      <br>
+
+      <div class="row justify-content-md-center" *ngIf="false">
+        <div class="col-md-8">
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>¡Hubo un error!</strong> corriga las fallas.
+          </div>
+        </div>
+      </div>
+
+      <div class="alert alert-success alert-dismissible fade show" role="alert" *ngIf="mostrarExito()">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Success!.</strong> Se ha creado su usuario: Bienvenido usuario: {{mensajeExito.username}}
+      </div>
+      <div class="alert alert-warning" *ngIf="mostrarErrorPreEnvio()">
+        <strong>Hubo un error!.</strong>
+        <strong>{{mensajeError.message}}</strong>
+      </div>
+      <div class="alert alert-warning" *ngIf="mostrarError()">
+        <strong>Hubo un error!.</strong>
+        <strong *ngIf="mensajeError.debugInfo">{{mensajeError.debugInfo}}</strong>
+        <strong *ngIf="!mensajeError.debugInfo">{{mensajeErrorContrasenha}}</strong>
+      </div>        
+    </form>
+
+    <hr class="featurette-divider">
+
+    <!-- Inicio del Footer -->
+    <footer id="piePagina">
+      <p class="float-right"><a href="">Back to top</a></p>
+      <p>&copy; 2017 Lernen. &middot; <a href="">Contacto</a> &middot; <a href="">Soporte</a></p>
+    </footer>
+    <!-- Fin del Footer -->
+  </div><!-- container -->
+</div>

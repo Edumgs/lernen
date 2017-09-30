@@ -3,15 +3,19 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
+import { app_routing } from './app.routes';
+import { RegistroComponent } from './registro/registro.component';
+
+import { CiudadesService } from './servicio/ciudades.service';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-
-import { app_routing } from './app.routes';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +23,9 @@ import { app_routing } from './app.routes';
     HttpModule,
     app_routing
   ],
-  providers: [],
+  providers: [
+    CiudadesService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
