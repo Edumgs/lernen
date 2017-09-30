@@ -15,6 +15,9 @@
         <li class="nav-item" routerLinkActive="active" *ngIf="!mostrarLogin()">
           <a class="nav-link" [routerLink]="['login']">Login</a>
         </li>
+        <li class="nav-item" routerLinkActive="active" *ngIf="mostrarLogin()">
+          <a class="nav-link" [routerLink]="['compra']">Compra</a>
+        </li>
       </ul>
       <ul class="navbar-nav" *ngIf="mostrarLogin()">
         <li class="nav-item active">

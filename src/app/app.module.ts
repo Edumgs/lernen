@@ -13,13 +13,15 @@ import { NoLoginGuard } from './guardia/no-login.guard';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { CompraComponent } from './compra/compra.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     RegistroComponent,
-    LoginComponent
+    LoginComponent,
+    CompraComponent
   ],
   imports: [
     BrowserModule,
