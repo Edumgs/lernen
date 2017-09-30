@@ -1,0 +1,31 @@
+<!-- Inicio del login -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"> 
+      <div class="alert alert-danger alert-dismissible fade show" role="alert" *ngIf="loginExito">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="alert-heading">Datos erróneos</h4>
+        <p>Por favor, inténte otra vez.</p>
+      </div>
+      <form class="form-signin" #loginForm="ngForm" (submit)="login(loginForm)">
+        <h2 class="form-signin-heading">Inicie Sesión</h2>
+        <label for="usuario" class="sr-only">Usuario</label>
+        <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Usuario" autofocus ngModel>
+        <label for="contrasenha" class="sr-only">Contraseña</label>
+        <input type="password" id="contrasenha" name="contrasenha" class="form-control" placeholder="Contraseña" ngModel>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+      </form>
+    </div>
+  </div>
+  <!-- Fin del login -->
+  
+  <div class="container fixed-bottom">
+    <hr class="featurette-divider">
+    
+    <!-- Inicio del Footer -->
+    <footer id="piePagina" style="margin-bottom: 55px;">
+      <p>&copy; 2017 Lernen. &middot; <a href="#piePagina">Contacto</a> &middot; <a href="#piePagina">Soporte</a></p>
+    </footer>
+    <!-- Fin del Footer -->
+  </div><!-- container-->

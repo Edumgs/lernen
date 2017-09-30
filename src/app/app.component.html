@@ -9,8 +9,28 @@
         <li class="nav-item" routerLinkActive="active">
           <a class="nav-link" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item" routerLinkActive="active">
+        <li class="nav-item" routerLinkActive="active" *ngIf="!mostrarLogin()">
           <a class="nav-link" [routerLink]="['registro']">Registrarse</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active" *ngIf="!mostrarLogin()">
+          <a class="nav-link" [routerLink]="['login']">Login</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav" *ngIf="mostrarLogin()">
+        <li class="nav-item active">
+          <a class="nav-link">
+            <img class="rounded-circle" src="assets/img/person.png" alt="Imagen genérica" width="25" height="25">
+            {{usuario | uppercase}}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">
+            <img class="rounded-circle" src="assets/img/cart.png" alt="Imagen genérica" width="25" height="25">
+            <span class="badge badge-success">0</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="logout()">Logout</a>
         </li>
       </ul>
     </div>
